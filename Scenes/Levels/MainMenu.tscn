@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://csjcniljui83b"]
+[gd_scene load_steps=2 format=3 uid="uid://csjcniljui83b"]
 
-[ext_resource type="Script" path="res://Scripts/StartButton.gd" id="1_eb701"]
+[ext_resource type="Script" path="res://Scripts/MainMenuScripts/StartButton.gd" id="1_eb701"]
 
 [node name="MainMenu" type="Node2D"]
 
