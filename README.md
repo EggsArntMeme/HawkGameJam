@@ -1,3 +1,2 @@
 # HawkGameJam
-the repsrvnuiti for the game jam
-1
+UnFuzed & EggArntMeme's HawkGameJam entry
