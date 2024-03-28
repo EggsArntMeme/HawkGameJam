@@ -1,0 +1,5 @@
+res://Player.tscn
+res://Scenes/Levels/levelOne.tscn
+res://Scenes/Levels/MainMenu.tscn
+res://Scenes/Objects/Player2.tscn
+res://Scripts/PlayerScripts/PlayerMovement.gd
