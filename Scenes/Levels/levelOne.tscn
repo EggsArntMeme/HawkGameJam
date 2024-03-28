@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckpos2myn2whu"]
+
+[ext_resource type="PackedScene" uid="uid://b2sw3v2g4lupk" path="res://Scenes/Objects/Player.tscn" id="1_yo5hd"]
+
+[node name="LevelOne" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="Player" parent="." instance=ExtResource("1_yo5hd")]
