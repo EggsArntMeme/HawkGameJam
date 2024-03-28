@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsfvey5bjhvki"
-path="res://.godot/imported/TEMP_GROUND.png-be52e2aa2d52a8008879b9bb393ebe8f.ctex"
+uid="uid://18prev205g6"
+path="res://.godot/imported/BATTERY.png-d8790a2ef75ebae44fda852cadb8e495.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/TEMP_GROUND.png"
-dest_files=["res://.godot/imported/TEMP_GROUND.png-be52e2aa2d52a8008879b9bb393ebe8f.ctex"]
+source_file="res://BATTERY.png"
+dest_files=["res://.godot/imported/BATTERY.png-d8790a2ef75ebae44fda852cadb8e495.ctex"]
 
 [params]
 
