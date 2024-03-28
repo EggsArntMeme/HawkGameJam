@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cx8d4ganun1wf"]
+
+[ext_resource type="Script" path="res://Scenes/Objects/Player2MoveMent.gd" id="1_ibwhx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3vnra"]
+
+[node name="Player2" type="CharacterBody2D"]
+script = ExtResource("1_ibwhx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_3vnra")
