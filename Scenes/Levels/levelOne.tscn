@@ -44,6 +44,7 @@ sources/0 = SubResource("TileSetAtlasSource_mfjw8")
 [node name="LevelOne" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_yo5hd")]
+texture_filter = 1
 position = Vector2(290, -123)
 collision_mask = 2
 

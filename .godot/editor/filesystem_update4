@@ -1,4 +1,1 @@
-res://Scenes/Objects/Battery.tscn
 res://Scenes/Levels/levelOne.tscn
-res://Scenes/Objects/Player.tscn
-res://Scripts/PlayerScripts/BatteryPickup.gd
