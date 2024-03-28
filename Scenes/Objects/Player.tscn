@@ -1,27 +1,19 @@
 [gd_scene load_steps=4 format=3 uid="uid://b2sw3v2g4lupk"]
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-[ext_resource type="Script" path="res://Scripts/PlayerScripts/PlayerPickUp.gd" id="1_76tg4"]
+[ext_resource type="Script" path="res://Scripts/PlayerMovement.gd" id="1_r6mi6"]
 [ext_resource type="Texture2D" uid="uid://0w4sbbnh48ya" path="res://Sprites/Wizard.png" id="2_jmrhf"]
-=======
-[ext_resource type="Script" path="res://Scripts/PlayerMovement.gd" id="1_r6mi6"]
-[ext_resource type="Texture2D" uid="uid://br51loh170o1t" path="res://icon.svg" id="2_7umku"]
->>>>>>> parent of 684c4af (TileMap working!)
-=======
-[ext_resource type="Script" path="res://Scripts/PlayerMovement.gd" id="1_r6mi6"]
-[ext_resource type="Texture2D" uid="uid://br51loh170o1t" path="res://icon.svg" id="2_7umku"]
->>>>>>> parent of 684c4af (TileMap working!)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jbykw"]
+size = Vector2(20, 30)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_76tg4")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_7umku")
+texture = ExtResource("2_jmrhf")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
 shape = SubResource("RectangleShape2D_jbykw")
 
 [node name="Camera2D" type="Camera2D" parent="."]
