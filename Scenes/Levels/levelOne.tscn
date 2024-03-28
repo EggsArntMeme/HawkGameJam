@@ -1,10 +1,26 @@
-[gd_scene load_steps=2 format=3 uid="uid://ckpos2myn2whu"]
+[gd_scene load_steps=5 format=3 uid="uid://ckpos2myn2whu"]
 
+[ext_resource type="Texture2D" uid="uid://br51loh170o1t" path="res://icon.svg" id="1_tjnfb"]
 [ext_resource type="PackedScene" uid="uid://b2sw3v2g4lupk" path="res://Scenes/Objects/Player.tscn" id="1_yo5hd"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_40k45"]
+texture = ExtResource("1_tjnfb")
+0:0/size_in_atlas = Vector2i(8, 8)
+0:0/0 = 0
+0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
+0:0/0/physics_layer_0/angular_velocity = 0.0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -5.91534, -8, -6.1802)
+
+[sub_resource type="TileSet" id="TileSet_phn5r"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_40k45")
 
 [node name="LevelOne" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
+position = Vector2(-175, -289)
+tile_set = SubResource("TileSet_phn5r")
 format = 2
 
 [node name="Player" parent="." instance=ExtResource("1_yo5hd")]
+position = Vector2(17, -125)
