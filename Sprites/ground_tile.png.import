@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bkwvht5hbqmst"
-path="res://.godot/imported/TEMP_GROUND.png-6b815b21d807b0d4634471aec81d3795.ctex"
+uid="uid://cepsg783pm0v3"
+path="res://.godot/imported/ground_tile.png-a944330d9923ca9f9992887e4a04b954.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TEMP_GROUND.png"
-dest_files=["res://.godot/imported/TEMP_GROUND.png-6b815b21d807b0d4634471aec81d3795.ctex"]
+source_file="res://Sprites/ground_tile.png"
+dest_files=["res://.godot/imported/ground_tile.png-a944330d9923ca9f9992887e4a04b954.ctex"]
 
 [params]
 
