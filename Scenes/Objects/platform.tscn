@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://ck7bqtt45063r"]
+
+[ext_resource type="Script" path="res://PlatformMovement.gd" id="1_4def3"]
+[ext_resource type="Texture2D" uid="uid://ccl7xfhsxldvf" path="res://Sprites/Platform.png" id="2_phxvd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_2re6a"]
+radius = 1.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vycdi"]
+size = Vector2(58, 4)
+
+[node name="Platform" type="StaticBody2D"]
+disable_mode = 1
+collision_layer = 2
+script = ExtResource("1_4def3")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("2_phxvd")
+
+[node name="Centre" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_2re6a")
+debug_color = Color(0.972549, 0, 0.439216, 0.419608)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_vycdi")
+
+[node name="Marker2D" type="Marker2D" parent="."]
