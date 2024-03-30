@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://c14dpm4aeph41"]
+
+[ext_resource type="Script" path="res://Scripts/ObjectScripts/DoorToggle.gd" id="1_71jwa"]
+[ext_resource type="Texture2D" uid="uid://vgenlo60fhuc" path="res://Sprites/Door.png" id="1_y8iol"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hgw64"]
+size = Vector2(14, 64)
+
+[node name="Door" type="StaticBody2D"]
+position = Vector2(0, -32)
+collision_layer = 2
+script = ExtResource("1_71jwa")
+TOGGLE = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_y8iol")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_hgw64")

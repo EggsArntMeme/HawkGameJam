@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://ck7bqtt45063r"]
 
-[ext_resource type="Script" path="res://PlatformMovement.gd" id="1_4def3"]
+[ext_resource type="Script" path="res://Scripts/ObjectScripts/PlatformMovement.gd" id="1_4def3"]
 [ext_resource type="Texture2D" uid="uid://ccl7xfhsxldvf" path="res://Sprites/Platform.png" id="2_phxvd"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2re6a"]

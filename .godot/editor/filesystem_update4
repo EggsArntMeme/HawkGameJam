@@ -1,8 +1,1 @@
-res://Scripts/MainMenuScripts/StartButton.gd
-res://Scenes/Levels/levelOne.tscn
-res://Scenes/Objects/Battery.tscn
 res://Scenes/Objects/Player.tscn
-res://PlatformMovement.gd
-res://Scenes/Objects/platform.tscn
-res://Scripts/PlayerScripts/BatteryPickup.gd
-res://Scripts/PlayerScripts/PlayerMovement.gd

@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=3 uid="uid://ckpos2myn2whu"]
+[gd_scene load_steps=9 format=3 uid="uid://ckpos2myn2whu"]
 
 [ext_resource type="PackedScene" uid="uid://csl6l3dxrt1oq" path="res://Scenes/Objects/Player.tscn" id="1_yo5hd"]
 [ext_resource type="Texture2D" uid="uid://cepsg783pm0v3" path="res://Sprites/ground_tile.png" id="2_eoavp"]
 [ext_resource type="PackedScene" uid="uid://bmm0hj07smm6e" path="res://Scenes/Objects/Battery.tscn" id="3_td7tu"]
-[ext_resource type="PackedScene" uid="uid://ck7bqtt45063r" path="res://Scenes/Objects/platform.tscn" id="3_wu7ai"]
+[ext_resource type="PackedScene" uid="uid://ck7bqtt45063r" path="res://Scenes/Objects/Platform.tscn" id="3_wu7ai"]
+[ext_resource type="PackedScene" uid="uid://c14dpm4aeph41" path="res://Scenes/Objects/Door.tscn" id="4_bfxw8"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2ia2p"]
 
@@ -61,6 +62,12 @@ position = Vector2(287, -74)
 POSITION_A = 50
 POSITION_B = -50
 SPEED = 30
+
+[node name="Door" parent="." instance=ExtResource("4_bfxw8")]
+position = Vector2(768, -185)
+rotation = 1.5708
+TOGGLE = false
+OPEN = true
 
 [node name="Battery" parent="." instance=ExtResource("3_td7tu")]
 position = Vector2(186, -119)
