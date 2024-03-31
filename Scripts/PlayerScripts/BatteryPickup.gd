@@ -4,6 +4,8 @@ var grabbed = false
 var can_grab = false
 
 
+
+
 # Called when the node enters the scene tree for the first time.
 
 
@@ -15,6 +17,7 @@ func _input(event):
 	if Input.is_action_just_pressed("DOWN") and grabbed:
 		print("dropped")
 		grabbed = false
+		can_grab = true
 	
 
 func _on_body_entered(body):
