@@ -9,11 +9,6 @@ extends Node2D
 
 var TOGGLE = true  # this will toggle if the platform is moving or not
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if TOGGLE:
@@ -25,4 +20,3 @@ func _process(delta):
 		CENTRE.x += SPEED * delta
 		position.x += SPEED * delta
 		
-	pass
