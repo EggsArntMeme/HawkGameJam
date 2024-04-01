@@ -17,6 +17,7 @@ scale = Vector2(0.07, 0.07)
 shape = SubResource("RectangleShape2D_qefem")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
 scale = Vector2(0.56, 0.56)
 texture = ExtResource("1_gidpx")
 

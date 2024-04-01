@@ -1,6 +1,7 @@
+res://Scripts/PlayerScripts/BatteryPickup.gd
 res://Scenes/Levels/levelOne.tscn
+res://Scenes/Objects/Battery.tscn
 res://Scenes/Objects/Player.tscn
 res://Scenes/Objects/Platform.tscn
 res://Scenes/Objects/Door.tscn
-res://Scripts/PlayerScripts/BatteryPickup.gd
-res://Scenes/Objects/Battery.tscn
+res://Scripts/PlayerScripts/PlayerMovement.gd
