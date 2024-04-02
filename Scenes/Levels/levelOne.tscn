@@ -3,7 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://csl6l3dxrt1oq" path="res://Scenes/Objects/Player.tscn" id="1_yo5hd"]
 [ext_resource type="Texture2D" uid="uid://cepsg783pm0v3" path="res://Sprites/ground_tile.png" id="2_eoavp"]
 [ext_resource type="PackedScene" uid="uid://bmm0hj07smm6e" path="res://Scenes/Objects/Battery.tscn" id="3_td7tu"]
-[ext_resource type="PackedScene" uid="uid://ck7bqtt45063r" path="res://Scenes/Objects/Platform.tscn" id="3_wu7ai"]
+[ext_resource type="PackedScene" uid="uid://ck7bqtt45063r" path="res://Scenes/Objects/platform.tscn" id="3_wu7ai"]
 [ext_resource type="PackedScene" uid="uid://c14dpm4aeph41" path="res://Scenes/Objects/Door.tscn" id="4_bfxw8"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_2ia2p"]

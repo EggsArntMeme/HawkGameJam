@@ -10,7 +10,8 @@ size = Vector2(264.286, 264.286)
 size = Vector2(50, 50)
 
 [node name="Battery" type="RigidBody2D"]
-mass = 9.0
+can_sleep = false
+lock_rotation = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2(0.07, 0.07)
