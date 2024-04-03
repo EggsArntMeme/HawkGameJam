@@ -10,6 +10,8 @@ size = Vector2(264.286, 264.286)
 size = Vector2(50, 50)
 
 [node name="Battery" type="RigidBody2D"]
+mass = 1000.0
+inertia = 100.0
 can_sleep = false
 lock_rotation = true
 

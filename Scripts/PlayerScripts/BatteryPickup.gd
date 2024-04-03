@@ -20,15 +20,19 @@ func _process(_delta):
 func _input(_event):
 	if Input.is_action_just_pressed("F") and can_grab and !grabbed:
 		print("grabbed")
+		print(SELF.lock_rotation)
 		SELF.gravity_scale = 0
 		grabbed = true
 		
 	if Input.is_action_just_pressed("DOWN") and grabbed:
 		print("dropped")
 		SELF.gravity_scale = 1
+		SELF.rotation = 0
 		grabbed = false
 		SELF.position.x = PLAYER.position.x + (30 * PLAYER.public_direction)
 		SELF.position.y = PLAYER.position.y - 10
+		
+
 		can_grab = true
 	
 

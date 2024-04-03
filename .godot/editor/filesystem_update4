@@ -1,5 +1,1 @@
-res://Scenes/Levels/levelOne.tscn
-res://Scenes/Objects/Battery.tscn
-res://Scenes/Objects/Player.tscn
-res://Scenes/Objects/Door.tscn
-res://Scenes/Objects/Platform.tscn
+res://Scripts/ObjectScripts/DoorToggle.gd
